@@ -4,7 +4,7 @@ const button=document.getElementById("button")
 let todo=[]
 
 const addTodo=()=>{
-    todo.push({nameOfTask:input.value, completed:false})
+    todo.push({nameOfTask:fill.value, completed:false})
     console.log(todo)
 }
 
